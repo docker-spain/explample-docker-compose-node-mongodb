@@ -6,6 +6,10 @@ $ docker build -t marlonapp-client .
 $ docker run -p 3000:3000 marlonapp-client
 ```
 
+# Conectarse a la consola interactiva
+```
+$ docker exec -it exampleapp  bash
+```
 
 # Correr docker-compose
 ```
@@ -14,7 +18,4 @@ $ docker-compose up
 $ docker-compose stop
 ```
 
-# Conectarse a la consola interactiva
-```
-$ docker exec -it exampleapp  bash
-```
+
